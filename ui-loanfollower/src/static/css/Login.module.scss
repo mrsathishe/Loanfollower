@@ -1,0 +1,49 @@
+.wrapper {
+   /*  top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    margin: 0 auto;
+    position: absolute; */
+    padding: 20px;
+    // border-radius: 10px;
+    // background: rgb(204, 204, 204, 0.3);
+    .innerWrapper {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    .modalHeader {
+        margin-bottom: 10px;
+        // border-radius: 7px;
+        // border-bottom: 3px solid #ccc;
+    }
+    form {
+        button {
+            width: 40%;
+            text-align: center;
+            left: 50%;
+            position: relative;
+            transform: translate(-50%);
+        }
+    }
+}
+
+.buttonIcon {
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+        .innerWrapper {
+           
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+        .innerWrapper {
+            
+        }
+    }
+}

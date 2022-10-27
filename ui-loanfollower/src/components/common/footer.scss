@@ -1,0 +1,17 @@
+.footer-container {
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    background: #8D8741;
+    text-align: center;
+    line-height: 50px;
+    color: #eee;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    .footer-content{
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+    }
+}

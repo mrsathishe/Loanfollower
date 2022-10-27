@@ -1,0 +1,20 @@
+.header-container {
+    height: 100px;
+    box-sizing: border-box;
+    background: #8D8741;
+    color: #EEE;
+    .header {
+        padding-top: 10px;
+    }
+    .logo-img {
+        height: 80px;
+        width: 300px;
+    }
+    .contact-phone {
+        margin-top: 15px;
+    }
+    .contact-email, .contact-phone {
+        font-weight: bold;
+        font-style: italic;
+    }
+}
